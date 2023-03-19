@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
+html{
+  scroll-behavior: smooth;
+}
 *{
 margin:0px;
 /* color:white; */
@@ -22,21 +24,29 @@ u:hover{
 background-color:transparent;
 height:50px;
 width:100%;
+
 }
 .div1 ul{
 list-style-type:none;
+font-size: 5px;
+font-weight: bold;
 }
 .div1 ul li{
 float:right;
 padding:20px;
+
 }
 .div1 ul li a{
-color:#2e2c2c;
 text-decoration:none;
 font-size:20px;
+color: #fff;
+
 }
 .div1 ul li a:hover{
-color:white;
+  color:rgb(198, 77, 77); 
+  letter-spacing: 2px;
+
+
 }
 .div2{
 background-color:#666464;
