@@ -482,15 +482,27 @@ p {
   background-color: #0582E3;
   float: left;
 }
+.div7f h3{
+  color: rgb(198, 77, 77);
+
+}
 .div7s{
   width: 33.3333333333%;
   height: 60vh;
   background-color: #6b3131;
   float: left;
 }
+.div7s h3{
+  color: rgb(198, 77, 77);
+
+}
 .div7t{
   width: 33.3333333333%;
   height: 60vh;
   background-color: #ff7000;
   float: left;
+}
+.div7t h3{
+  color: rgb(198, 77, 77);
+
 }
