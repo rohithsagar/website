@@ -476,33 +476,66 @@ p {
   /* background-color: yellow; */
 
 }
+.div7f i{
+  /* float:right; */
+  margin-right: 150px;
+  /* justify-items: c; */
+  margin-left: 150px;
+
+}
 .div7f{
   width: 33.3333333333%;
   height: 60vh;
-  background-color: #0582E3;
+  background-color: #000;
   float: left;
 }
 .div7f h3{
   color: rgb(198, 77, 77);
+  text-align: center;
+  /* margin-left: 120px; */
+  margin-top: -20px;
+
+
 
 }
 .div7s{
   width: 33.3333333333%;
   height: 60vh;
-  background-color: #6b3131;
+  background-color: #000;
   float: left;
+}
+.div7s i{
+  /* float:right; */
+  margin-right: 150px;
+  /* justify-items: c; */
+  margin-left: 180px;
+
 }
 .div7s h3{
   color: rgb(198, 77, 77);
+  text-align: center;
+  margin-top: -20px;
+
 
 }
 .div7t{
   width: 33.3333333333%;
   height: 60vh;
-  background-color: #ff7000;
+  background-color: #000;
   float: left;
+}
+.div7t i{
+  /* float:right; */
+  margin-right: 150px;
+  /* justify-items: c; */
+  margin-left: 180px;
+
 }
 .div7t h3{
   color: rgb(198, 77, 77);
+  text-align: center;
+  margin-top: -20px;
+
+
 
 }
