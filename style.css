@@ -116,6 +116,7 @@ u:hover {
   float: left;
   margin-top: 100px;
   border-right: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -127,6 +128,8 @@ u:hover {
   margin-top: 100px;
   border-right: 1px solid #fff;
   /* border-right:1px solid white; */
+  border-bottom: 1px solid white;
+
 }
 
 .ul1 {
@@ -251,6 +254,8 @@ u:hover {
   height: 70%;
   float: left;
   margin-top: 100px;
+  border-bottom: 1px solid white;
+
 }
 
 h2 {
@@ -272,6 +277,9 @@ p {
   /* float: left; */
   flex: 1;
 }
+/* .div4 h2 i{
+  margin-left: 50px;
+} */
 
 .a1 {
   text-decoration: none;
@@ -402,7 +410,7 @@ p {
 }
 
 
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>SECTION 3>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 .sec3{
   width: 100%;
   height: 100vh;
@@ -416,7 +424,39 @@ p {
   color: #fff;
   width: 100%;
   height: 20vh;
-  background-color: green;
+  background-color:black;
+  text-transform: capitalize;
+}
+.div6 ul{
+  float: right;
+  margin-right: 50px;
+  text-decoration: none;
+  list-style-type: none;
+
+}
+
+.div6 ul li i{
+  margin-left: 5px;
+}
+.div6 ul li a{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+.div6 ul li a:hover{
+  color: rgb(198, 77, 77);
+  letter-spacing: 2px;
+
+ 
+}
+.div6 p{
+  margin-top: 2px;
+  letter-spacing: 5px;
+  color: rgb(198, 77, 77);
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 220px;
+
 }
 .div6 h2{
   letter-spacing: 1px;
