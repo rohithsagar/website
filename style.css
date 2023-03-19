@@ -11,7 +11,7 @@ html {
 }
 
 .sec1 {
-  background: linear-gradient(rgba(8, 8, 8, 0.1), black), url("image3.jpg");
+  background: linear-gradient(rgba(5, 8, 0, 0.7), #000), url("image3.jpg");
   background-size: cover;
   width: 100%;
   height: 100vh;
@@ -19,6 +19,7 @@ html {
 
 u {
   text-transform: uppercase;
+  transition: 0.5s;
 }
 
 u:hover {
@@ -49,6 +50,8 @@ u:hover {
   text-decoration: none;
   font-size: 20px;
   color: #fff;
+  transition: 0.5s;
+
 
 }
 
@@ -60,23 +63,43 @@ u:hover {
 }
 
 .div2 {
-  background-color: #666464;
+  /* background-color: #666464; */
   height: 60vh;
   width: 50%;
 
 }
+.div2 .p1{
+  text-align: left;
+  margin-left: 150px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: -25px;
+  letter-spacing: 2px;
+
+}
+.div2 .p2{
+  text-align: left;
+  margin-left: 150px;
+  font-size: 30px;
+  color: rgb(198, 77, 77);
+  font-weight: bold;
+  margin-top: -5px;
+  letter-spacing: 2px;
+
+
+}
 
 .div2 h1 {
-  background: linear-gradient(to right, #f1f0f5,
-
-      #8a8991);
+  background: linear-gradient(to right, #40407a,#6b3131,#000);
   -webkit-text-fill-color: transparent;
 
   -webkit-background-clip: text;
-  font-size: 150px;
+  font-size: 120px;
   text-align: center;
   margin-top: 200px;
   font-family: 'Kanit', sans-serif;
+  letter-spacing: 8px;
 }
 
 .sec2 {
@@ -254,16 +277,27 @@ p {
   text-decoration: none;
   background-color: white;
   color: black;
-  margin-left: 220px;
+  margin-left: 180px;
   border: 2px solid black;
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 5px;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+
 }
+.a1:hover{
+  cursor: pointer;
+  letter-spacing: 2px;
+  background-color: rgb(198, 77, 77);
+  color: #fff;
+  text-transform: lowercase;
 
 
-
-
+}
 
 .contact-section {
   width: 100%;
