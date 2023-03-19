@@ -113,7 +113,7 @@ border-radius:5px;
 
 .sec4{
   width: 100%;
-  min-height: 50vh;
+  min-height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,7 +142,7 @@ border-radius:5px;
 
 .contact-form{
   max-width: 700px;
-  margin-right: 500px;
+  margin-right: 250px;
 
 }
 .contact-info, .contact-form{
@@ -153,9 +153,64 @@ border-radius:5px;
   font-size: 35px;
   text-transform: uppercase;
   margin-bottom: 30px;
+  margin-top: -25px;
 
 }
 
+.contact-form .text-box{
+  border: none;
+  color: #fff;
+  background: #000;
+  height: 50px;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  width: calc(50% - 10px);
+  opacity: 0.9;
+}
+.contact-form .text-box:first-child{
+  margin-right: 15px;
+}
+.contact-form textarea{
+  border: none;
+  color: #fff;
+  background: #000;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  min-height: 200px;
+  max-height: 400px;
+  resize: vertical;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  opacity: 0.9;
+  margin-top: 10px;
+}
+
+.contact-form .send-btn{
+  float: right;
+  background: #2E94E3;
+  color: #fff;
+  border: none;
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+
+
+}
+.contact-form .send-btn:hover{
+  background: #0582E3;
+
+
+}
 
 
 
